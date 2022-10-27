@@ -7,6 +7,10 @@
     
 }
 
+body{
+    background-color: aliceblue;
+}
+
 header{
     width: 100%;
     height: 70px;
@@ -15,7 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0px 100px 0 60px;
-    background: #87CEFA;
+    background:linear-gradient(to bottom, #2193b0, #6dd5ed);
 
 }
 .logo{
@@ -41,6 +45,7 @@ header{
     gap: 40px;
 }
 
+
 .navbar{
     gap: 130px;
 }
@@ -62,3 +67,68 @@ header{
     cursor: pointer;
     color: aliceblue;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin-top: 60px;
+    padding: 70px 0px;
+    gap: 20%;
+}
+
+
+.portada__info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+}
+
+.portada--titulo{
+    font-weight: 700;
+    font-size: 40px;
+    background:linear-gradient(to right, #2193b0, #6dd5ed);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.portada--parrafo{
+    width: 85%;
+    font-size: 18px;
+}
+
+.portada--imagen{
+    gap: 30px;
+}
+
+
+.boton{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0px 70px;
+    gap: 30px;
+}
+
+.boton a{
+        color:white;
+        background:linear-gradient(to bottom, #2193b0, #6dd5ed);
+        width: 120px;
+        padding: 8px 0px;
+        font-size: 14px;
+        text-align: center;
+}
+
+
+

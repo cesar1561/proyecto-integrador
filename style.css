@@ -75,7 +75,7 @@ main{
     align-items: center;
 }
 
-.portada{
+#portada{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +109,7 @@ main{
 }
 
 .portada--imagen{
-    gap: 30px;
+    gap: 60px;
 }
 
 
@@ -130,5 +130,73 @@ main{
         text-align: center;
 }
 
+#second-section{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
+.about-us-titulo{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.about-us-parrafo{
+    text-align: center;
+    font-size: 18px;
+}
+
+#third-section{
+    max-width: 1200px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.specialities-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 31px 0;
+    max-width: 1200px; 
+}
+
+
+.third-section-titulo{
+    font-size: 25px;
+    font-weight: 900;
+    gap:20px;
+}
+
+.specialities{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.specialities h3{
+    text-align: center;
+}
+
+.specialities img{
+    width: 80%;
+}

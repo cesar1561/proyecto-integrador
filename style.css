@@ -73,6 +73,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #portada{
@@ -199,4 +200,92 @@ main{
 
 .specialities img{
     width: 80%;
+}
+
+#fourth-section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 35px;
+    flex-wrap: wrap;
+
+}
+
+.fourth-section-titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#fifth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding-top: 100px;
+}
+
+.fifth-section-titulo{
+    display: flex;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.fifth-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 77px;
+}
+
+
+.fifth-section-parrafo{
+    text-align: center;
+}
+
+.img{
+    width: 70px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+    background:linear-gradient(to bottom, #2193b0, #6dd5ed);
+}
+
+
+footer a,
+footer p{
+    color:white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.footer-links a{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.redes{
+    display: flex;
+    gap: 40px;
 }

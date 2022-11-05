@@ -7,6 +7,7 @@
     <title>proyecto-integrador</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/mediaquieries.css">
 </head>
 <body>
     <header>
@@ -15,6 +16,10 @@
             <h3 class="texto">Odontologia Gonzales</h3>
         </div>
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="/assets/hamburguesa.png" alt="menu-toggle">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <ul class="navbar-list">
                 <li><a href="#portada">inicio</a></li>
                 <li><a href="#second-section">quienes somos</a></li>
@@ -59,21 +64,21 @@
         </nav>
     </header>
     <main>
-        <section>
-                <div id="portada">
-            <div class="portada__info">
+    <section id="portada">
+        <div class="portada-info">
+            <div class="portada-titulo">
                 <h1 class="portada--titulo"> Consultorio medico odontologico</h1>
                 <p class="portada--parrafo">Somos un centro Médico y Odontológico en expansión. Contamos con un equipo de expertos en la materia que atienden a los pacientes con un gran profesionalismo.Somos un centro Médico y Odontológico en expansión</p>
+                <div class="boton ">
+                    <a href="/assets/index2.html">Inicias secion</a>
+                    <a href="/assets/index3.html">Registrarse</a>
+                </div>
             </div>
-            <div class="portada__imagen">
+            <div class="portada-imagen">
                     <img src="/assets/odontologo,png.jpg" alt="imagen de un odontologo" class="portada--foto">
             </div>
-                </div>
-                    <div class="boton">
-                        <a href="/assets/index2.html" target="_blank">Registrarse</a >
-                        <a href="/assets/index3.html" target="_blank">Entrar</a>
-                    </div>
-        </section>
+        </div>
+    </section>
         <section id="second-section">
             <div class="about-us">
                 <h3 class="about-us-titulo">Quienes Somos</h3>

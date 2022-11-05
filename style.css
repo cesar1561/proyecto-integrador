@@ -124,7 +124,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 #portada{
@@ -134,21 +133,25 @@ main{
     width: 80%;
     height: 80%;
     margin-top: 60px;
-    padding: 70px 0px;
-    gap: 20%;
+    padding: 70px ;
+    gap: 50%;
 }
 
 
-.portada__info{
+.portada-info{
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 30px;
+    justify-content: center;
+    width: 70%;
+    gap: 70px;
+    padding: 60px;
 }
+
+
+
 
 .portada--titulo{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
     background:linear-gradient(to right, #2193b0, #6dd5ed);
     color: transparent;
     -webkit-background-clip: text;
@@ -160,8 +163,8 @@ main{
     font-size: 18px;
 }
 
-.portada--imagen{
-    gap: 60px;
+.portada-imagen{
+    gap: 40px; 
 }
 
 
@@ -170,17 +173,30 @@ main{
     text-align: center;
     align-items: center;
     padding: 0px 70px;
-    gap: 30px;
+    top: 10px;
+    gap: 40px;
 }
 
 .boton a{
         color:white;
-        background:linear-gradient(to bottom, #2193b0, #6dd5ed);
         width: 120px;
         padding: 8px 0px;
         font-size: 14px;
         text-align: center;
 }
+
+.menu-label{
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+    order: 2;
+}
+
+
+#menu-toggle{
+    display: none;
+}
+
 
 #second-section{
     width: 80%;

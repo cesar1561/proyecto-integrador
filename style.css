@@ -140,7 +140,7 @@ main{
 
 .portada-info{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 70%;
     gap: 70px;
     padding: 50px;
@@ -169,20 +169,23 @@ main{
 
 
 .boton{
-    display: flex;
+    padding: 8px 0px;
+    width: 80%;
+    border-radius: 10px;
+    background:linear-gradient(to bottom, #2193b0, #6dd5ed);
+    font-size: 14px;
+    gap: 30%;
     text-align: center;
-    align-items: center;
-    padding: 0px 70px;
-    top: 10px;
-    gap: 40px;
 }
+
 
 .boton a{
         color:white;
-        width: 120px;
+        width: 80px;
         padding: 8px 0px;
         font-size: 14px;
         text-align: center;
+        gap: 20%;
 }
 
 .menu-label{

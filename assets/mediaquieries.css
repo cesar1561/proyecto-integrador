@@ -102,19 +102,13 @@
 
 
     .portada-info h1{
-        align-items: center;
-        width: 120px;
-        padding-right: 80px;
+        width: 100px;
+        padding-right: 90px;
         text-align: center;
-        font-size: 22px;
-        font-weight: 900;
+        font-size: 20px;
+        font-weight: 900; 
     }
 
-    /* .portada--titulo{
-        padding-right: 80px;
-        text-align: center;
-        width: 50%;
-    } */
 
     .portada--parrafo{
         text-align: center;
